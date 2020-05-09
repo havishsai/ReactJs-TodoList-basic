@@ -1,0 +1,59 @@
+
+.ullist{
+  list-style-type: none;
+} 
+.removebutton{
+  font-size: 10px;
+  position:absolute;
+  right:0;
+  width:1px;
+  height: 100%;
+  opacity: 0;
+  transition: width 1s,opacity 1.5s;
+  background: #2196F3;
+  cursor: pointer;
+  
+}
+.addbutton{
+  background-color: #2196F3;
+  font-weight: 600;
+  margin-left:  2rem;
+  font-size: larger;
+}
+.addbutton:hover{
+  background-color: #2196F3;
+  opacity: 0.9;
+  
+}
+.lilist{
+  box-shadow:0px 0px 3px 0px;
+  height:50px;
+  width:25%;
+  position:relative;
+
+}
+.removetext{
+  position:relative;
+  top:30%;
+  color:darkblue;
+}
+.lilist:hover .removebutton{
+  width:40px;
+  opacity:1;
+}
+.itemtext{
+  position: relative;
+  top:20%;
+}
+#item{
+  width:250px;
+  transition: border-bottom 0.4s;
+  color:darkblue;
+  font-weight: 600;
+  font-size: larger;
+}
+#item:focus{
+  border-bottom:1px solid #2196F3;
+  box-shadow: 0 1px 0 0px #2196F3;
+
+}
